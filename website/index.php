@@ -6,7 +6,6 @@
     <body>
         <h1>Welcome to test shoping list</h1>
         <h1>This list is called from a python_api on different docker host</h1>
-        <h4>
         <ul>
             <?php
             $json = file_get_contents('http://py-service/');
@@ -17,6 +16,5 @@
             }
             ?>
         </ul>
-      </h4>
     </body>
 </html>
